@@ -45,7 +45,7 @@
     cp .env.example .env
     Настрой файл .env
 
-6. Укажи параметры подключения к MySQL:
+6. Укажи параметры подключения к MySQL
    
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
