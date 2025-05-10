@@ -32,39 +32,39 @@
 
 1. Клонируй репозиторий
 
-    git clone https://github.com/Bozdakhov/todo-list-api.git
-   
-    cd todo-list-api
+        git clone https://github.com/Bozdakhov/todo-list-api.git
+       
+        cd todo-list-api
 
 3. Установи зависимости
 
-    composer install
+        composer install
 
 4. Создай .env файл
    
-    cp .env.example .env
-    Настрой файл .env
+        cp .env.example .env
+        Настрой файл .env
 
-6. #  Укажи параметры подключения к MySQL
+6. Укажи параметры подключения к MySQL
    
-    DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=3306
-    DB_DATABASE=todo_list_api
-    DB_USERNAME=root
-    DB_PASSWORD=
+        DB_CONNECTION=mysql
+        DB_HOST=127.0.0.1
+        DB_PORT=3306
+        DB_DATABASE=todo_list_api
+        DB_USERNAME=root
+        DB_PASSWORD=
 
 8. Сгенерируй ключ приложения
    
-    php artisan key:generate
+        php artisan key:generate
 
 10. Запусти миграции
     
-    php artisan migrate
+        php artisan migrate
 
 12. Запусти локальный сервер
 
-    php artisan serve
+        php artisan serve
 
 ## 🔗 Маршруты API
 
